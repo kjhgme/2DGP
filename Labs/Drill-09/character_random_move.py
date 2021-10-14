@@ -52,6 +52,7 @@ def update_character():
 # 아래 코드는 어떤 식으로 4개의 포인트를 가져오는가?
 def get_next_four_points():
     global cur_index
+    print(cur_index)
     start = cur_index % num_points
     end = start + 4
     points = extended_target_points[start:end]
